@@ -1,0 +1,11 @@
+[package]
+name = "hello_world"
+version = "0.1.0"
+edition = "2018"
+
+[[bin]]
+name = "hello_world_executable"
+path = "ch1/hello_world/main.rs"
+
+
+[dependencies]
