@@ -1,0 +1,5 @@
+- `cargo new hello_cargo`: Use cargo to create a new project
+- `cargo build`
+    - `cargo build --release`
+- `cargo run`
+- `cargo check`
