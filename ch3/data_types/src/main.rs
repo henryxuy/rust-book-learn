@@ -120,6 +120,7 @@ fn main() {
         .parse()
         .expect("Index entered was not a number");
 
+    // If we use an invalid index, a RUNTIME error will occur
     let element = a[index];
 
     println!("The value of the element at index {index} is: {element}")

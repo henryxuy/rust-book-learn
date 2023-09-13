@@ -31,6 +31,13 @@ fn main() {
             .read_line(&mut guess) // Reference (&) is immutable by default, Even for a mutable variable. Need & mut x
             .expect("Failed to read line");
 
+        // similar to
+        // match io::stdin()
+        //     .read_line(&mut guess) {
+        //         Ok(_) => {}
+        //         Err(_) => println!("Failed to read line"),
+        // }
+
 
         println!("You guessed: {}", guess);
 
